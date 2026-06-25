@@ -1,12 +1,23 @@
+body{
+  background-color: rgb(2, 26, 41);
+}
+
 header{
   background-color: rgb(27, 52, 66);
   text-align: center;
-  padding: 100px;
+  padding: 50px;
+  border-radius: 28px;
+}
+
+h1.Title{
   text-size: 44px;
+  color: #ffffff;
 }
 
 main{
   background-color: rgb(6, 14, 20);
+  padding: 20px;
+  border-radius: 30px;
 }
 
 article.MyNikolai{
@@ -14,6 +25,8 @@ article.MyNikolai{
   align-items: center;
   text-align: center;
   padding: 50px;
+  font-size: 22px;
+  border-radius: 20px;
 }
 
 article.Galery{
@@ -47,4 +60,9 @@ p{
   margin-top: 8px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+hr{
+  border: none;
+  height: 20px;
 }
