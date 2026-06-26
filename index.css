@@ -10,7 +10,7 @@ header{
 }
 
 h1.Title{
-  text-size: 44px;
+  font-size: 44px;
   color: #ffffff;
 }
 
@@ -34,7 +34,6 @@ article.Galery{
   justify-content: center;
   align-items: start;
   flex-wrap: wrap;
-  max-width: 200%;
   max-width: 200%;
   gap: 5px;
 }
